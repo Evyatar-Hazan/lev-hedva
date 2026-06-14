@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Box, Toolbar, useTheme, useMediaQuery } from '@mui/material';
+import { Box, Toolbar } from '@mui/material';
 import Header from './Header';
 import Sidebar from './Sidebar';
 import { COLORS } from '../../theme/colors';
