@@ -1,0 +1,30 @@
+{
+  "name": "lev-hedva",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Lev Hedva monorepo for the website, legacy client, and backend API.",
+  "workspaces": [
+    "apps/website",
+    "apps/client",
+    "apps/server"
+  ],
+  "scripts": {
+    "dev:website": "npm --workspace apps/website run dev",
+    "dev:client": "npm --workspace apps/client run start",
+    "dev:server": "npm --workspace apps/server run start:dev",
+    "build": "npm run build:website && npm run build:client && npm run build:server",
+    "build:website": "npm --workspace apps/website run build",
+    "build:client": "npm --workspace apps/client run build",
+    "build:server": "npm --workspace apps/server run build",
+    "lint": "npm run lint:website && npm run lint:client && npm run lint:server",
+    "lint:website": "npm --workspace apps/website run lint",
+    "lint:client": "npm --workspace apps/client run lint",
+    "lint:server": "npm --workspace apps/server run lint",
+    "test": "npm run test:client && npm run test:server",
+    "test:client": "npm --workspace apps/client run test:ci",
+    "test:server": "npm --workspace apps/server run test:ci"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

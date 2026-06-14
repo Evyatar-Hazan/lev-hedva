@@ -1,0 +1,449 @@
+{
+  "common": {
+    "loading": "טוען...",
+    "save": "שמור",
+    "cancel": "ביטול",
+    "create": "צור",
+    "edit": "עדכון",
+    "view": "צפייה",
+    "delete": "מחיקה",
+    "add": "הוספה",
+    "search": "חיפוש",
+    "yes": "כן",
+    "no": "לא",
+    "ok": "אישור",
+    "back": "חזור",
+    "next": "הבא",
+    "previous": "הקודם",
+    "submit": "שלח",
+    "close": "סגור",
+    "error": "שגיאה",
+    "success": "הצלחה",
+    "warning": "אזהרה",
+    "info": "מידע",
+    "status": "סטטוס",
+    "actions": "פעולות",
+    "filter": "סינון",
+    "refresh": "רענן",
+    "export": "ייצא",
+    "import": "ייבא",
+    "all": "הכל",
+    "none": "ללא",
+    "page": "עמוד",
+    "of": "מתוך",
+    "clickHere": "לחץ כאן",
+    "total": "סה\"כ",
+    "showing": "מציג",
+    "entries": "רשומות",
+    "noData": "לא נמצאו נתונים",
+    "serverError": "שגיאה בחיבור לשרת",
+    "add_filter": "הוסף פילטר",
+    "clear_all": "נקה הכל",
+    "select_filter": "בחר פילטר",
+    "apply": "החל"
+  },
+  "connection": {
+    "waitingForServer": "ממתין לתגובה מ-http://localhost:3001",
+    "connectionError": "❌ שגיאה בחיבור לשרת",
+    "retryInfo": "הקליינט ינסה להתחבר מחדש כל 30 שניות",
+    "troubleshooting": "📋 פתרונות אפשריים:",
+    "solutions": {
+      "checkServer": "ודא שהשרת רץ על פורט 3001",
+      "runCommand": "הרץ את הפקודה:",
+      "commandText": "./run-dev.sh",
+      "checkEnv": "בדוק שקובץ .env בשרת מכיל את ההגדרות הנכונות",
+      "checkFirewall": "ודא שאין חומת אש חוסמת את הפורט"
+    }
+  },
+  "navigation": {
+    "dashboard": "דשבורד",
+    "users": "ניהול משתמשים",
+    "products": "ניהול מוצרים",
+    "loans": "ניהול השאלות",
+    "volunteers": "ניהול מתנדבים",
+    "audit": "ביקורת ולוגים",
+    "logout": "יציאה מהמערכת"
+  },
+  "descriptions": {
+    "dashboard": "מסך ראשי וסטטיסטיקות",
+    "users": "ניהול משתמשי המערכת",
+    "products": "ניהול מוצרים ומופעים",
+    "loans": "ניהול השאלות והחזרות",
+    "volunteers": "ניהול מתנדבים ופעילויות",
+    "audit": "לוגים וביקורת מערכת"
+  },
+  "auth": {
+    "welcomeTitle": "ברוכים הבאים ללב חדוה",
+    "welcomeSubtitle": "היכנסו לחשבון שלכם כדי להמשיך",
+    "email": "כתובת אימייל",
+    "password": "סיסמה",
+    "login": "היכנס",
+    "logout": "יציאה מהמערכת",
+    "loginError": "שגיאת התחברות:",
+    "logoutError": "שגיאת יציאה:",
+    "pleaseLogin": "התחבר למערכת",
+    "defaultCredentials": {
+      "email": "אימייל: admin@levhedva.org",
+      "password": "סיסמה: Admin123!"
+    }
+  },
+  "dashboard": {
+    "title": "לוח בקרה",
+    "dataError": "שגיאה בטעינת נתונים",
+    "serverUrl": "שרת: http://localhost:3001",
+    "debug": "דיבוג:",
+    "users": "משתמשים",
+    "products": "מוצרים",
+    "activeLoans": "השאלות פעילות",
+    "overdue": "איחורים",
+    "debugInfo": "משתמשים: {{userCount}}, מוצרים: {{productCount}}, הלוואות: {{activeLoans}}"
+  },
+  "sidebar": {
+    "systemTitle": "מערכת לב חדוה",
+    "systemSubtitle": "מערכת ניהול",
+    "welcomeUser": "ברוך הבא, {{firstName}} {{lastName}}",
+    "userRole": "תפקיד: {{role}}",
+    "roleAdmin": "מנהל",
+    "roleWorker": "עובד",
+    "roleVolunteer": "מתנדב",
+    "roleClient": "לקוח",
+    "roleUser": "משתמש",
+    "version": "גרסה 1.0.0 © לב חדוה"
+  },
+  "header": {
+    "systemTitle": "מערכת ניהול לב חדוה",
+    "systemSubtitle": "מערכת ניהול",
+    "notifications": "התראות"
+  },
+  "menu": {
+    "profile": "פרופיל",
+    "settings": "הגדרות"
+  },
+  "profile": {
+    "title": "פרופיל משתמש",
+    "personalInfo": "מידע אישי",
+    "changePassword": "שינוי סיסמה",
+    "currentPassword": "סיסמה נוכחית",
+    "newPassword": "סיסמה חדשה",
+    "confirmPassword": "אימות סיסמה",
+    "updatePassword": "עדכן סיסמה",
+    "updateSuccess": "הפרטים עודכנו בהצלחה",
+    "updateError": "שגיאה בעדכון הפרטים",
+    "passwordChangeSuccess": "הסיסמה שונתה בהצלחה",
+    "passwordChangeError": "שגיאה בשינוי הסיסמה",
+    "passwordMismatch": "הסיסמאות אינן תואמות",
+    "passwordTooShort": "הסיסמה חייבת להכיל לפחות 8 תווים",
+    "memberSince": "חבר מאז",
+    "userId": "מזהה משתמש",
+    "roleAdmin": "מנהל",
+    "roleWorker": "עובד",
+    "roleVolunteer": "מתנדב",
+    "roleClient": "לקוח",
+    "roleUser": "משתמש",
+    "address": "כתובת"
+  },
+  "notifications": {
+    "overdueLoans": {
+      "title": "הלוואות באיחור",
+      "message": "יש {{count}} הלוואות שלא הוחזרו במועד"
+    },
+    "newLoans": {
+      "title": "הלוואות חדשות",
+      "message": "נוצרו {{count}} הלוואות חדשות היום"
+    },
+    "newProducts": {
+      "title": "מוצרים חדשים",
+      "message": "נוספו {{count}} מוצרים חדשים למערכת"
+    },
+    "newUsers": {
+      "title": "משתמשים חדשים",
+      "message": "נרשמו {{count}} משתמשים חדשים השבוע"
+    },
+    "monthlyReport": {
+      "title": "דוח חודשי מוכן",
+      "message": "הדוח החודשי זמין לצפייה"
+    },
+    "viewLoans": "צפה בהלוואות",
+    "viewProducts": "צפה במוצרים",
+    "viewUsers": "צפה במשתמשים",
+    "viewReport": "צפה בדוח",
+    "noNotifications": "אין התראות חדשות",
+    "viewAll": "צפה בכל ההתראות",
+    "newNotifications": "התראות חדשות"
+  },
+  "time": {
+    "now": "כעת",
+    "minutesAgo": "לפני {{count}} דקות",
+    "hoursAgo": "לפני {{count}} שעות",
+    "daysAgo": "לפני {{count}} ימים"
+  },
+  "loans": {
+    "title": "ניהול השאלות",
+    "newLoan": "השאלה חדשה",
+    "createNewLoan": "יצירת השאלה חדשה",
+    "editLoan": "עריכת השאלה",
+    "searchPlaceholder": "חיפוש השאלות...",
+    "selectUser": "בחירת משתמש",
+    "selectProduct": "בחירת מוצר",
+    "expectedReturnDate": "תאריך החזרה צפוי",
+    "create": "יצור",
+    "notes": "הערות",
+    "notesPlaceholder": "הערות נוספות על ההשאלה...",
+    "borrower": "שואל",
+    "product": "מוצר",
+    "loanDate": "תאריך השאלה",
+    "returnDate": "תאריך החזרה",
+    "dueDate": "תאריך יעד",
+    "status": {
+      "label": "סטטוס",
+      "active": "פעיל",
+      "overdue": "איחור",
+      "returned": "הוחזר",
+      "lost": "אבד"
+    },
+    "stats": {
+      "activeLoans": "השאלות פעילות",
+      "overdue": "איחורים",
+      "returned": "הוחזרו",
+      "lost": "אבדו"
+    },
+    "filter": {
+      "status": "סטטוס",
+      "allStatuses": "כל הסטטוסים",
+      "borrower": "שואל",
+      "category": "קטגוריה",
+      "loanDate": "תאריך השאלה",
+      "expectedReturn": "תאריך החזרה צפוי"
+    },
+    "actions": {
+      "return": "החזרה",
+      "edit": "עריכה"
+    },
+    "noLoans": "לא נמצאו השאלות",
+    "loadError": "שגיאה בטעינת נתוני ההשאלות:",
+    "pagination": "מציג {{showing}} מתוך {{total}} השאלות"
+  },
+  "products": {
+    "title": "ניהול מוצרים",
+    "addProduct": "הוספת מוצר",
+    "addInstance": "הוספת מופע חדש",
+    "searchPlaceholder": "חיפוש מוצרים...",
+    "view_product": "צפייה במוצר",
+    "edit_product": "עריכת מוצר",
+    "manage_instances": "ניהול מופעים",
+    "product_instances": "מופעי המוצר",
+    "add_instance": "הוספת מופע",
+    "total_instances": "סה\"כ מופעים",
+    "available_instances": "זמינים",
+    "borrowed_instances": "מושאלים",
+    "no_instances": "לא נמצאו מופעים למוצר זה",
+    "no_instances_hint": "הוסף מופע ראשון כדי להתחיל לעקוב אחר מלאי",
+    "instance_status": "מצב",
+    "physical_condition": "מצב פיזי",
+    "instance_available": "זמין",
+    "instance_borrowed": "מושאל",
+    "edit_instance": "עריכת מופע",
+    "delete_instance": "מחק",
+    "view_instances": "צפה במופעים",
+    "instancesTitle": "מופעי מוצר",
+    "serial_number": "מספר סידורי",
+    "barcode": "ברקוד",
+    "condition": "מצב",
+    "location": "מיקום",
+    "notes": "הערות",
+    "add_first_instance": "הוסף מופע ראשון כדי להתחיל לעקוב אחר מלאי",
+    "editProduct": "עריכת מוצר",
+    "editInstance": "עריכת מופע",
+    "productName": "שם המוצר",
+    "description": "תיאור",
+    "category": "קטגוריה",
+    "manufacturer": "יצרן",
+    "model": "דגם",
+    "instances": "מופעים",
+    "availability": "זמינות",
+    "available": "זמינים כעת",
+    "borrowed": "מושאלים",
+    "status": "סטטוס",
+    "categories": {
+      "all": "כל הקטגוריות",
+      "mobility": "ניידות",
+      "medical_furniture": "ריהוט רפואי",
+      "hearing_aids": "עזרי שמיעה",
+      "vision_aids": "עזרי ראייה",
+      "bathing_aids": "עזרי רחצה",
+      "other": "אחר",
+      "add_new": "הוסף קטגוריה חדשה",
+      "new_category": "שם קטגוריה חדשה"
+    },
+    "conditions": {
+      "new": "חדש",
+      "used_good": "משומש - מצב טוב",
+      "used_fair": "משומש - מצב בינוני",
+      "needs_repair": "זקוק לתיקון",
+      "excellent": "מצוין",
+      "good": "טוב",
+      "fair": "בינוני",
+      "poor": "גרוע"
+    },
+    "manufacturers": {
+      "add_new": "הוסף יצרן חדש"
+    },
+    "stats": {
+      "totalProducts": "סה\"כ מוצרים",
+      "productInstances": "מופעי מוצרים"
+    },
+    "filter": {
+      "category": "קטגוריה",
+      "availability": "זמינות",
+      "hasAvailable": "זמין להשאלה",
+      "unavailable": "לא זמין"
+    },
+    "noProducts": "לא נמצאו מוצרים",
+    "loadError": "שגיאה בטעינת נתוני המוצרים:",
+    "pagination": "עמוד {{page}} מתוך {{totalPages}} | סה\"כ {{total}} מוצרים",
+    "debug": "טוען: {{loading}} | שגיאה: {{error}} | מוצרים: {{count}} | מופעי מוצרים: {{instances}}"
+  },
+  "users": {
+    "title": "ניהול משתמשים",
+    "addUser": "הוספת משתמש",
+    "editUser": "עריכת משתמש",
+    "searchPlaceholder": "חיפוש משתמשים...",
+    "fullName": "שם מלא",
+    "firstName": "שם פרטי",
+    "lastName": "שם משפחה",
+    "email": "אימייל",
+    "password": "סיסמה",
+    "phone": "טלפון",
+    "address": "כתובת",
+    "role": "תפקיד",
+    "status": {
+      "label": "סטטוס",
+      "active": "פעיל",
+      "inactive": "לא פעיל"
+    },
+    "joinDate": "תאריך הצטרפות",
+    "activeUser": "משתמש פעיל",
+    "confirmDelete": "האם אתה בטוח שברצונך למחוק את המשתמש?",
+    "roles": {
+      "all": "כל התפקידים",
+      "admin": "אדמין",
+      "worker": "עובד",
+      "volunteer": "מתנדב",
+      "user": "משתמש"
+    },
+    "filter": {
+      "role": "תפקיד",
+      "status": "סטטוס",
+      "phonePlaceholder": "חפש לפי טלפון",
+      "emailPlaceholder": "חפש לפי אימייל"
+    },
+    "noUsers": "לא נמצאו משתמשים",
+    "loadError": "שגיאה בטעינת נתוני המשתמשים:",
+    "pagination": "מציג {{showing}} מתוך {{total}} משתמשים",
+    "debug": "טוען: {{loading}} | שגיאה: {{error}} | נתונים: {{data}}"
+  },
+  "volunteers": {
+    "title": "ניהול מתנדבים",
+    "addActivity": "הוספת פעילות",
+    "editActivity": "עריכת פעילות",
+    "viewActivity": "צפייה בפעילות",
+    "searchPlaceholder": "חיפוש פעילויות...",
+    "volunteer": "מתנדב",
+    "activityType": "סוג פעילות",
+    "description": "תיאור",
+    "date": "תאריך",
+    "hours": "שעות",
+    "notes": "הערות",
+    "createdAt": "נוצר בתאריך",
+    "activities": {
+      "all": "כל הפעילויות",
+      "delivery": "משלוח",
+      "home_visit": "ביקור בית",
+      "phone_call": "שיחה טלפונית",
+      "maintenance": "תחזוקה",
+      "other": "אחר"
+    },
+    "stats": {
+      "activeVolunteers": "מתנדבים פעילים",
+      "yearActivities": "פעילויות השנה",
+      "volunteerHours": "שעות התנדבות",
+      "goldVolunteers": "מתנדבי זהב",
+      "totalHours": "סה\"כ שעות",
+      "avgHoursPerVolunteer": "ממוצע שעות למתנדב"
+    },
+    "filter": {
+      "activityType": "סוג פעילות",
+      "volunteer": "מתנדב",
+      "date": "תאריך",
+      "minHours": "מינימום שעות",
+      "minHoursPlaceholder": "הכנס מספר שעות"
+    },
+    "noActivities": "לא נמצאו פעילויות התנדבות",
+    "loadError": "שגיאה בטעינת נתוני המתנדבים:",
+    "createSuccess": "הפעילות נוצרה בהצלחה",
+    "updateSuccess": "הפעילות עודכנה בהצלחה",
+    "pagination": "עמוד {{page}} מתוך {{totalPages}} | סה\"כ {{total}} פעילויות"
+  },
+  "audit": {
+    "title": "יומן ביקורת",
+    "searchPlaceholder": "חיפוש ביומן ביקורת...",
+    "time": "זמן",
+    "user": "משתמש",
+    "action": "פעולה",
+    "entity": "ישות",
+    "description": "תיאור",
+    "ipAddress": "כתובת IP",
+    "stats": {
+      "totalActions": "פעולות כלל",
+      "todayActions": "פעולות היום",
+      "activeUsers": "משתמשים פעילים",
+      "actionTypes": "סוגי פעולות"
+    },
+    "entities": {
+      "user": "משתמש",
+      "product": "מוצר",
+      "loan": "השאלה",
+      "volunteer": "פעילות מתנדבים",
+      "permission": "הרשאה"
+    },
+    "actions": {
+      "all": "כל הפעולות",
+      "login": "התחברות",
+      "create": "יצירה",
+      "update": "עדכון",
+      "delete": "מחיקה",
+      "permissions": "הרשאות"
+    },
+    "filter": {
+      "actionType": "סוג פעולה",
+      "entityType": "סוג ישות",
+      "date": "תאריך",
+      "ipAddress": "כתובת IP",
+      "ipPlaceholder": "חפש לפי כתובת IP"
+    },
+    "noAuditRecords": "לא נמצאו רשומות ביקורת",
+    "loadError": "שגיאה בטעינת נתוני הביקורת:",
+    "loadedEntries": "נטענו {{loaded}} מתוך {{total}} פעולות",
+    "pagination": "עמוד {{page}} מתוך {{totalPages}} | סה\"כ {{total}} רשומות",
+    "viewDetails": {
+      "title": "פרטי רשומת יומן ביקורת",
+      "notFound": "לא נמצאה הרשומה",
+      "time": "זמן הפעולה:",
+      "user": "משתמש:",
+      "actionType": "סוג הפעולה:",
+      "entity": "יישות:",
+      "entityId": "מזהה היישות:",
+      "ipAddress": "כתובת IP:",
+      "description": "תיאור הפעולה:",
+      "metadata": "מטא-דטה נוסף:",
+      "noDescription": "אין תיאור זמין לפעולה זו",
+      "unknownUser": "משתמש לא ידוע",
+      "notAvailable": "לא זמין"
+    }
+  },
+  "table": {
+    "actions": "פעולות",
+    "noData": "אין נתונים להצגה",
+    "loading": "טוען נתונים..."
+  }
+}

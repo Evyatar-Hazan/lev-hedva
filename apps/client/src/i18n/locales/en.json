@@ -1,0 +1,444 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "save": "Save",
+    "cancel": "Cancel",
+    "create": "Create",
+    "edit": "Edit",
+    "view": "View",
+    "delete": "Delete",
+    "add": "Add",
+    "search": "Search",
+    "yes": "Yes",
+    "no": "No",
+    "ok": "OK",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "submit": "Submit",
+    "close": "Close",
+    "error": "Error",
+    "success": "Success",
+    "warning": "Warning",
+    "info": "Information",
+    "actions": "Actions",
+    "filter": "Filter",
+    "refresh": "Refresh",
+    "export": "Export",
+    "import": "Import",
+    "all": "All",
+    "none": "None",
+    "page": "Page",
+    "of": "of",
+    "clickHere": "Click here",
+    "total": "Total",
+    "showing": "Showing",
+    "entries": "entries",
+    "noData": "No data found",
+    "serverError": "Server connection error",
+    "add_filter": "Add Filter",
+    "clear_all": "Clear All",
+    "select_filter": "Select Filter",
+    "apply": "Apply"
+  },
+  "connection": {
+    "waitingForServer": "Waiting for response from http://localhost:3001",
+    "connectionError": "❌ Server connection error",
+    "retryInfo": "Client will retry connection every 30 seconds",
+    "troubleshooting": "📋 Possible solutions:",
+    "solutions": {
+      "checkServer": "Ensure server is running on port 3001",
+      "runCommand": "Run the command:",
+      "commandText": "./run-dev.sh",
+      "checkEnv": "Check that .env file on server contains correct settings",
+      "checkFirewall": "Ensure no firewall is blocking the port"
+    }
+  },
+  "navigation": {
+    "dashboard": "Dashboard",
+    "users": "Users Management",
+    "products": "Products Management",
+    "loans": "Loans Management",
+    "volunteers": "Volunteers Management",
+    "audit": "Audit & Logs",
+    "logout": "Logout"
+  },
+  "descriptions": {
+    "dashboard": "Main screen and statistics",
+    "users": "System users management",
+    "products": "Products and instances management",
+    "loans": "Loans and returns management",
+    "volunteers": "Volunteers and activities management",
+    "audit": "Logs and system audit"
+  },
+  "auth": {
+    "welcomeTitle": "Welcome to Lev Hedva",
+    "welcomeSubtitle": "Please log in to your account to continue",
+    "email": "Email Address",
+    "password": "Password",
+    "login": "Login",
+    "logout": "Logout",
+    "loginError": "Login error:",
+    "logoutError": "Logout error:",
+    "pleaseLogin": "Please log in to the system",
+    "defaultCredentials": {
+      "email": "Email: admin@levhedva.org",
+      "password": "Password: Admin123!"
+    }
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "dataError": "Error loading data",
+    "serverUrl": "Server: http://localhost:3001",
+    "debug": "Debug:",
+    "users": "Users",
+    "products": "Products",
+    "activeLoans": "Active Loans",
+    "overdue": "Overdue",
+    "debugInfo": "Users: {{userCount}}, Products: {{productCount}}, Loans: {{activeLoans}}"
+  },
+  "sidebar": {
+    "systemTitle": "Lev Hedva System",
+    "systemSubtitle": "Management System",
+    "welcomeUser": "Welcome, {{firstName}} {{lastName}}",
+    "userRole": "Role: {{role}}",
+    "roleAdmin": "Admin",
+    "roleWorker": "Worker",
+    "roleVolunteer": "Volunteer",
+    "roleClient": "Client",
+    "roleUser": "User",
+    "version": "Version 1.0.0 © Lev Hedva"
+  },
+  "header": {
+    "systemTitle": "Lev Hedva Management System",
+    "systemSubtitle": "Management System",
+    "notifications": "Notifications"
+  },
+  "menu": {
+    "profile": "Profile",
+    "settings": "Settings"
+  },
+  "profile": {
+    "title": "User Profile",
+    "personalInfo": "Personal Information",
+    "changePassword": "Change Password",
+    "currentPassword": "Current Password",
+    "newPassword": "New Password",
+    "confirmPassword": "Confirm Password",
+    "updatePassword": "Update Password",
+    "updateSuccess": "Profile updated successfully",
+    "updateError": "Error updating profile",
+    "passwordChangeSuccess": "Password changed successfully",
+    "passwordChangeError": "Error changing password",
+    "passwordMismatch": "Passwords do not match",
+    "passwordTooShort": "Password must be at least 8 characters",
+    "memberSince": "Member since",
+    "userId": "User ID",
+    "roleAdmin": "Admin",
+    "roleWorker": "Worker",
+    "roleVolunteer": "Volunteer",
+    "roleClient": "Client",
+    "roleUser": "User",
+    "address": "Address"
+  },
+  "notifications": {
+    "overdueLoans": {
+      "title": "Overdue Loans",
+      "message": "There are {{count}} loans that were not returned on time"
+    },
+    "newLoans": {
+      "title": "New Loans",
+      "message": "{{count}} new loans were created today"
+    },
+    "newProducts": {
+      "title": "New Products",
+      "message": "{{count}} new products were added to the system"
+    },
+    "newUsers": {
+      "title": "New Users",
+      "message": "{{count}} new users registered this week"
+    },
+    "monthlyReport": {
+      "title": "Monthly Report Ready",
+      "message": "The monthly report is available for viewing"
+    },
+    "viewLoans": "View Loans",
+    "viewProducts": "View Products",
+    "viewUsers": "View Users",
+    "viewReport": "View Report",
+    "noNotifications": "No new notifications",
+    "viewAll": "View All Notifications",
+    "newNotifications": "New Notifications"
+  },
+  "time": {
+    "now": "Now",
+    "minutesAgo": "{{count}} minutes ago",
+    "hoursAgo": "{{count}} hours ago",
+    "daysAgo": "{{count}} days ago"
+  },
+  "loans": {
+    "title": "Loans Management",
+    "newLoan": "New Loan",
+    "createNewLoan": "Create New Loan",
+    "editLoan": "Edit Loan",
+    "searchPlaceholder": "Search loans...",
+    "selectUser": "Select User",
+    "selectProduct": "Select Product",
+    "expectedReturnDate": "Expected Return Date",
+    "create": "Create",
+    "notes": "Notes",
+    "notesPlaceholder": "Additional notes about the loan...",
+    "borrower": "Borrower",
+    "product": "Product",
+    "loanDate": "Loan Date",
+    "returnDate": "Return Date",
+    "dueDate": "Due Date",
+    "status": {
+      "label": "Status",
+      "active": "Active",
+      "overdue": "Overdue",
+      "returned": "Returned",
+      "lost": "Lost"
+    },
+    "stats": {
+      "activeLoans": "Active Loans",
+      "overdue": "Overdue",
+      "returned": "Returned",
+      "lost": "Lost"
+    },
+    "filter": {
+      "status": "Status",
+      "allStatuses": "All Statuses",
+      "borrower": "Borrower",
+      "category": "Category",
+      "loanDate": "Loan Date",
+      "expectedReturn": "Expected Return Date"
+    },
+    "actions": {
+      "return": "Return",
+      "edit": "Edit"
+    },
+    "noLoans": "No loans found",
+    "loadError": "Error loading loans data:",
+    "pagination": "Showing {{showing}} of {{total}} loans"
+  },
+  "products": {
+    "title": "Products Management",
+    "addProduct": "Add Product",
+    "searchPlaceholder": "Search products...",
+    "view_product": "View Product",
+    "edit_product": "Edit Product",
+    "manage_instances": "Manage Instances",
+    "product_instances": "Product Instances",
+    "add_instance": "Add Instance",
+    "addInstance": "Add New Instance",
+    "total_instances": "Total Instances",
+    "available_instances": "Available",
+    "borrowed_instances": "Borrowed",
+    "no_instances": "No instances found for this product",
+    "no_instances_hint": "Add the first instance to start tracking inventory",
+    "instance_status": "Status",
+    "physical_condition": "Physical Condition",
+    "instance_available": "Available",
+    "instance_borrowed": "Borrowed",
+    "edit_instance": "Edit Instance",
+    "delete_instance": "Delete",
+    "view_instances": "View Instances",
+    "instancesTitle": "Product Instances",
+    "serial_number": "Serial Number",
+    "barcode": "Barcode",
+    "editProduct": "Edit Product",
+    "editInstance": "Edit Instance",
+    "productName": "Product Name",
+    "description": "Description",
+    "category": "Category",
+    "manufacturer": "Manufacturer",
+    "model": "Model",
+    "instances": "Instances",
+    "availability": "Availability",
+    "available": "Available Now",
+    "borrowed": "Borrowed",
+    "status": "Status",
+    "categories": {
+      "all": "All Categories",
+      "mobility": "Mobility",
+      "medical_furniture": "Medical Furniture",
+      "hearing_aids": "Hearing Aids",
+      "vision_aids": "Vision Aids",
+      "bathing_aids": "Bathing Aids",
+      "other": "Other",
+      "add_new": "Add New Category",
+      "new_category": "New Category Name"
+    },
+    "conditions": {
+      "new": "New",
+      "used_good": "Used - Good Condition",
+      "used_fair": "Used - Fair Condition",
+      "needs_repair": "Needs Repair",
+      "excellent": "Excellent",
+      "good": "Good",
+      "fair": "Fair",
+      "poor": "Poor"
+    },
+    "manufacturers": {
+      "add_new": "Add New Manufacturer"
+    },
+    "stats": {
+      "totalProducts": "Total Products",
+      "productInstances": "Product Instances"
+    },
+    "filter": {
+      "category": "Category",
+      "availability": "Availability",
+      "hasAvailable": "Available for Loan",
+      "unavailable": "Unavailable"
+    },
+    "noProducts": "No products found",
+    "loadError": "Error loading products data:",
+    "pagination": "Page {{page}} of {{totalPages}} | Total {{total}} products",
+    "debug": "Loading: {{loading}} | Error: {{error}} | Products: {{count}} | Instances: {{instances}}"
+  },
+  "users": {
+    "title": "Users Management",
+    "addUser": "Add User",
+    "editUser": "Edit User",
+    "searchPlaceholder": "Search users...",
+    "fullName": "Full Name",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "Email",
+    "password": "Password",
+    "phone": "Phone",
+    "address": "Address",
+    "role": "Role",
+    "status": {
+      "label": "Status",
+      "active": "Active",
+      "inactive": "Inactive"
+    },
+    "joinDate": "Join Date",
+    "activeUser": "Active User",
+    "confirmDelete": "Are you sure you want to delete this user?",
+    "roles": {
+      "all": "All Roles",
+      "admin": "Admin",
+      "worker": "Worker",
+      "volunteer": "Volunteer",
+      "user": "User"
+    },
+    "filter": {
+      "role": "Role",
+      "status": "Status",
+      "phonePlaceholder": "Search by phone",
+      "emailPlaceholder": "Search by email"
+    },
+    "noUsers": "No users found",
+    "loadError": "Error loading users data:",
+    "pagination": "Showing {{showing}} of {{total}} users",
+    "debug": "Loading: {{loading}} | Error: {{error}} | Data: {{data}}"
+  },
+  "volunteers": {
+    "title": "Volunteers Management",
+    "addActivity": "Add Activity",
+    "editActivity": "Edit Activity",
+    "viewActivity": "View Activity",
+    "searchPlaceholder": "Search activities...",
+    "volunteer": "Volunteer",
+    "activityType": "Activity Type",
+    "description": "Description",
+    "date": "Date",
+    "hours": "Hours",
+    "notes": "Notes",
+    "createdAt": "Created At",
+    "activities": {
+      "all": "All Activities",
+      "delivery": "Delivery",
+      "home_visit": "Home Visit",
+      "phone_call": "Phone Call",
+      "maintenance": "Maintenance",
+      "other": "Other"
+    },
+    "stats": {
+      "activeVolunteers": "Active Volunteers",
+      "yearActivities": "Year Activities",
+      "volunteerHours": "Volunteer Hours",
+      "goldVolunteers": "Gold Volunteers",
+      "totalHours": "Total Hours",
+      "avgHoursPerVolunteer": "Avg Hours Per Volunteer"
+    },
+    "filter": {
+      "activityType": "Activity Type",
+      "volunteer": "Volunteer",
+      "date": "Date",
+      "minHours": "Minimum Hours",
+      "minHoursPlaceholder": "Enter number of hours"
+    },
+    "noActivities": "No volunteer activities found",
+    "loadError": "Error loading volunteers data:",
+    "createSuccess": "Activity created successfully",
+    "updateSuccess": "Activity updated successfully",
+    "pagination": "Page {{page}} of {{totalPages}} | Total {{total}} activities"
+  },
+  "audit": {
+    "title": "Audit Log",
+    "searchPlaceholder": "Search audit log...",
+    "time": "Time",
+    "user": "User",
+    "action": "Action",
+    "entity": "Entity",
+    "description": "Description",
+    "ipAddress": "IP Address",
+    "stats": {
+      "totalActions": "Total Actions",
+      "todayActions": "Today's Actions",
+      "activeUsers": "Active Users",
+      "actionTypes": "Action Types"
+    },
+    "entities": {
+      "user": "User",
+      "product": "Product",
+      "loan": "Loan",
+      "volunteer": "Volunteer Activity",
+      "permission": "Permission"
+    },
+    "actions": {
+      "all": "All Actions",
+      "login": "Login",
+      "create": "Create",
+      "update": "Update",
+      "delete": "Delete",
+      "permissions": "Permissions"
+    },
+    "filter": {
+      "actionType": "Action Type",
+      "entityType": "Entity Type",
+      "date": "Date",
+      "ipAddress": "IP Address",
+      "ipPlaceholder": "Search by IP address"
+    },
+    "noAuditRecords": "No audit records found",
+    "loadError": "Error loading audit data:",
+    "loadedEntries": "Loaded {{loaded}} of {{total}} actions",
+    "pagination": "Page {{page}} of {{totalPages}} | Total {{total}} records",
+    "viewDetails": {
+      "title": "Audit Log Record Details",
+      "notFound": "Record not found",
+      "time": "Action Time:",
+      "user": "User:",
+      "actionType": "Action Type:",
+      "entity": "Entity:",
+      "entityId": "Entity ID:",
+      "ipAddress": "IP Address:",
+      "description": "Action Description:",
+      "metadata": "Additional Metadata:",
+      "noDescription": "No description available for this action",
+      "unknownUser": "Unknown User",
+      "notAvailable": "Not Available"
+    }
+  },
+  "table": {
+    "actions": "Actions",
+    "noData": "No data to display",
+    "loading": "Loading data..."
+  }
+}

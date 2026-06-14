@@ -1,0 +1,100 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "activities": "Activities",
+    "statistics": "Impact",
+    "donation": "Donate",
+    "stories": "Stories",
+    "contact": "Contact",
+    "aria_label": "Main Navigation",
+    "logo_alt": "Lev Chedva - Home",
+    "open_menu": "Open Menu",
+    "close_menu": "Close Menu"
+  },
+  "hero": {
+    "badge": "Our heart is with you",
+    "title1": "Lev Chedva -",
+    "title2": "Connecting Hearts, Spreading Joy",
+    "subtitle": "An association bringing light, joy, and happiness to the sick and elderly in medical centers and through home visits.",
+    "cta": "How Can I Help?",
+    "join_volunteer": "Join as a Volunteer"
+  },
+  "about": {
+    "title": "Who Are We?",
+    "description": "Lev Chedva was established with the aim of spreading light and joy among those who need it most. We believe that a single smile can change the world.",
+    "mission": "Our mission is to be there for every person who feels lonely or in pain, and to bring them the spirit of heart and joy.",
+    "image_alt": "Lev Chedva volunteers in action"
+  },
+  "stats": {
+    "volunteers": "Active Volunteers",
+    "visits": "Annual Visits",
+    "centers": "Medical Centers",
+    "smiles": "Smiles We've Shared",
+    "limitless": "Countless"
+  },
+  "donation": {
+    "badge": "Every donation makes a difference",
+    "title": "Join Our Mission",
+    "subtitle": "Your every contribution helps us reach more hearts and create more moments of happiness.",
+    "cta": "Donate Now",
+    "methods_title": "Donation Methods",
+    "bank_transfer": "Bank Transfer",
+    "bank_desc": "Direct transfer to our account",
+    "bank_name": "Bank",
+    "bank_value": "Mizrahi Tefahot",
+    "branch": "Branch",
+    "branch_value": "479",
+    "account": "Account",
+    "account_value": "166555",
+    "for": "For",
+    "account_name": "Lev Chedva",
+    "phone": "054-5420068",
+    "bit_paybox": "Bit / PayBox",
+    "bit_desc": "Fast and easy donation",
+    "send_message": "Send a message",
+    "nedarim_plus": "Nedarim Plus",
+    "nedarim_desc": "Donate via Nedarim platform",
+    "nedarim_cta": "Click here to donate",
+    "medical_equipment": "Medical Equipment Donation",
+    "medical_desc": "Contact us for equipment donation",
+    "choose": "Choose"
+  },
+  "contact": {
+    "badge": "Available for you",
+    "title": "Talk to Us",
+    "description": "We will accompany you at any time, with advice, guidance, or just a listening ear. Our team is here for any question or help you may need.",
+    "name": "Full Name",
+    "email": "Email",
+    "phone": "Phone",
+    "message": "Message",
+    "whatsapp": "WhatsApp",
+    "send": "Send",
+    "address": "Address",
+    "address_value": "Office: Levona St 1 Jerusalem\nEquipment Center: Moshe Yustman St 2 Jerusalem",
+    "volunteer_title": "Looking for how to volunteer or donate?",
+    "volunteer_desc": "Join the Lev Chedva family and take part in our blessed work for the sick and elderly.",
+    "whatsapp_cta": "Talk to us on WhatsApp"
+  },
+  "gallery": {
+    "title": "Field Activities",
+    "image_alt": "Activity image"
+  },
+  "footer": {
+    "description": "A registered association in Israel working to improve the mental well-being of the sick and elderly.",
+    "nav_title": "Quick Navigation",
+    "contact_title": "Contact Us",
+    "donation_title": "Quick Donation",
+    "donation_desc": "Scan the code or click.",
+    "donate_button": "Donate",
+    "address_label": "Address",
+    "rights": "Lev Chedva Association. All rights reserved.",
+    "built_by": "Built with love by",
+    "built_with": "Built with",
+    "by": "by",
+    "facebook_aria": "Facebook",
+    "instagram_aria": "Instagram",
+    "twitter_aria": "Twitter",
+    "qr_alt": "Quick donation QR code"
+  }
+}
