@@ -15,14 +15,9 @@ const selectRandomImages = (photos: string[], count: number = 8): string[] => {
 
 const Gallery: React.FC = () => {
   const { t } = useTranslation();
-  const [images, setImages] = useState<string[]>([]);
+  const [images, setImages] = useState<string[]>(() => selectRandomImages(allPhotos, 8));
 
   useEffect(() => {
-    setImages(selectRandomImages(allPhotos, 8));
-  }, []);
-
-  useEffect(() => {
-    const timeouts: ReturnType<typeof setTimeout>[] = [];
     const intervals: ReturnType<typeof setInterval>[] = [];
 
     // כל תמונה תקבל זמן אקראי משלה להחלפה
@@ -42,7 +37,6 @@ const Gallery: React.FC = () => {
     }
 
     return () => {
-      timeouts.forEach(t => clearTimeout(t));
       intervals.forEach(i => clearInterval(i));
     };
   }, []);
